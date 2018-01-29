@@ -30,22 +30,24 @@ npm install gitbook -g
     * [Section1.1](chapter1/section1.1.md) 
 ```
 通过init命令来生成目录
+
 ```
 gitbook init
 ```
 
-3. 编写修改文档文件
+3. 编写文档
 
 4. 发布
 
 运行以下命令，通过当前资源打包文件
 
-```
+```
 gitbook build
 ```
 
 切换分支至发布分支
-```
+
+```
 git checkout gh-pages
 ```
 
