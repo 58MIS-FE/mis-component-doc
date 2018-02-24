@@ -1,4 +1,4 @@
-<script src="../assets/js/main.js"></script>
+<script src="../assets/utils/jquery-1.12.4.js"></script>
 # Section1.1
 
 ### I'm `###`Create
