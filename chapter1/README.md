@@ -35,11 +35,12 @@
   })
 </script>
 
-<pre>
+```javascript
 $('#button_simple').button({
   text: '我是按钮'
 })
-</pre>
+```
+
 
 ### 指定type
 
@@ -53,16 +54,14 @@ $('#button_simple').button({
   })
 </script>
 
-<pre>
+```javascript
 $('#button_type').button({
   text: '我是特殊按钮',
   css: {
     background: 'blue'
   }
 })
-</pre>
-
-
+```
 
 ### Attributes
 | 参数      | 说明          | 类型      | 可选值                           | 默认值  |
