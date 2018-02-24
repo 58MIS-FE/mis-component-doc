@@ -1,20 +1,20 @@
-<script src="../assets/js/main.js"></scrip>
+<script src="../assets/js/main.js"></script>
 # Section1.1
 
+### I'm `###`Create
+
 <div id="demo">
-<h3>I'm demo</h3>
+<h3>I'm HTML Tag</h3>
 </div>
 
 ```
-<script>
   let demo = document.getElementById('demo')
   console.log('hello world')
   console.log(demo)
-</script>
 ```
-
 <script>
-  let demo = document.getElementById('demo')
   console.log('hello world')
-  console.log(demo)
 </script>
+## 111
+
+## 222
