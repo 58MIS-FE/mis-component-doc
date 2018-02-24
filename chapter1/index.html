@@ -219,6 +219,107 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="jquery-&#x63D2;&#x4EF6;">Jquery &#x63D2;&#x4EF6;</h1>
+<ol>
+<li>&#x5F15;&#x5165;<code>assets/utils</code>&#x4E2D;Jquery<pre><code>&lt;script src=&quot;../assets/js/jquery-1.12.4.js&quot;&gt;&lt;/script&gt;
+</code></pre></li>
+<li><p>&#x5F15;&#x5165;<code>assets/packages</code>&#x4E2D;&#x5BF9;&#x5E94;&#x7684;&#x7EC4;&#x4EF6;&#x6587;&#x4EF6;</p>
+<pre><code>&lt;script src=&quot;../assets/package/button.js&quot;&gt;&lt;/script&gt;
+</code></pre></li>
+<li><p>Mackdown&#x4E2D;&#x4E66;&#x5199;&#x5BF9;&#x5E94;&#x6587;&#x6863;&#x53CA;&#x793A;&#x4F8B;</p>
+</li>
+</ol>
+<p>&#x4E66;&#x5199;&#x793A;&#x4F8B;&#x53EF;&#x901A;&#x8FC7;&#x76F4;&#x63A5;Mackdown&#x5F53;&#x4E2D;&#x4E66;&#x5199;HTML&#x6807;&#x7B7E;&#x53CA;<code>&lt;script&gt;&lt;/script&gt;</code></p>
+<h2 id="example">Example</h2>
+<p>&#x4EE5;&#x4E0B;&#x4F7F;&#x7528;Button&#x7EC4;&#x4EF6;&#x5F53;&#x4E2D;&#x6587;&#x6863;&#x793A;&#x4F8B;</p>
+<h2 id="quick-start">Quick Start</h2>
+<script src="../assets/utils/jquery-1.12.4.js"></script>
+<script src="../assets/package/button.js"></script>
+
+<p>&#x901A;&#x8FC7;&#x793A;&#x4F8B;&#x5E94;&#x7528;&#x7EC4;&#x4EF6;</p>
+<h3 id="&#x7B80;&#x5355;&#x5E94;&#x7528;">&#x7B80;&#x5355;&#x5E94;&#x7528;</h3>
+<p><div id="button_simple"></div></p>
+<script>
+  $('#button_simple').button({
+    text: '我是按钮',
+    css: {
+
+    }
+  })
+</script>
+
+<pre>
+$(&apos;#button_simple&apos;).button({
+  text: &apos;&#x6211;&#x662F;&#x6309;&#x94AE;&apos;
+})
+</pre>
+
+<h3 id="&#x6307;&#x5B9A;type">&#x6307;&#x5B9A;type</h3>
+<p><div id="button_type"></div></p>
+<script>
+  $('#button_type').button({
+    text: '我是特殊按钮',
+    css: {
+      background: 'blue'
+    }
+  })
+</script>
+
+<pre>
+$(&apos;#button_type&apos;).button({
+  text: &apos;&#x6211;&#x662F;&#x7279;&#x6B8A;&#x6309;&#x94AE;&apos;,
+  css: {
+    background: &apos;blue&apos;
+  }
+})
+</pre>
+
+
+
+<h3 id="attributes">Attributes</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x53EF;&#x9009;&#x503C;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text</strong></td>
+<td><strong>button&#x4E2D;&#x5185;&#x5BB9;</strong></td>
+<td>string</td>
+<td>&#x2014;</td>
+<td>&#x2014;</td>
+</tr>
+<tr>
+<td>css</td>
+<td>&#x6837;&#x5F0F;</td>
+<td>string</td>
+<td>success/warning/info/error</td>
+<td>info</td>
+</tr>
+</tbody>
+</table>
+<h3 id="events">Events</h3>
+<table>
+<thead>
+<tr>
+<th>&#x4E8B;&#x4EF6;&#x540D;&#x79F0;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x56DE;&#x8C03;&#x53C2;&#x6570;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>click</td>
+<td>&#x70B9;&#x51FB;&#x65F6;&#x89E6;&#x53D1;&#x7684;&#x4E8B;&#x4EF6;</td>
+<td>&#x2014;</td>
+</tr>
+</tbody>
+</table>
 
                                 
                                 </section>
@@ -262,7 +363,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Jquery 插件","level":"1.2","depth":1,"next":{"title":"Section1.1","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},"previous":{"title":"介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/README.md","mtime":"2018-02-24T07:24:46.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-24T07:26:12.799Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Jquery 插件","level":"1.2","depth":1,"next":{"title":"Section1.1","level":"1.2.1","depth":2,"path":"chapter1/section1.1.md","ref":"chapter1/section1.1.md","articles":[]},"previous":{"title":"介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/README.md","mtime":"2018-02-24T08:19:37.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-24T08:20:26.700Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -270,10 +371,6 @@
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
