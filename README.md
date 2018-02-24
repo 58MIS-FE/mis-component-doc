@@ -6,13 +6,13 @@
 
 `gh-pages`分支用于发布文档
 
-1. 全局安装gitbook
+1. 全局安装gitbook
 
 ```
 npm install gitbook -g
 ```
 
-2. 生成文档目录
+2. 生成文档目录
 
 通过修改SUMMARY.md来新增目录
 ```
@@ -29,15 +29,15 @@ npm install gitbook -g
 // 锁进控制目录层级
     * [Section1.1](chapter1/section1.1.md) 
 ```
-通过init命令来生成目录
+通过init命令来生成目录
 
 ```
 gitbook init
 ```
 
-3. 编写文档
+3. 编写文档
 
-4. 发布
+4. 发布
 
 运行以下命令，通过当前资源打包文件
 
@@ -51,7 +51,7 @@ gitbook build
 git checkout gh-pages
 ```
 
-复制文件
+复制文件
 ```
 cp -r _book/* .
 ```
