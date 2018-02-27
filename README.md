@@ -50,7 +50,15 @@ gitbook init
 
 4. 发布
 
+在master文件已经上传至git后，也可以采用以下命令发布
+```
+npm run deploy:gh-pages
+```
+
+#### 具体步骤如下
+
 运行以下命令，通过当前资源打包文件
+将在当前目录生成`_book`目录
 
 ```
 gitbook build
@@ -67,9 +75,15 @@ git checkout gh-pages
 cp -r _book/* .
 ```
 
-上传至对应分支
-
+上传至对应分支，且修改该分支作为默认`push`的分支
 ```
 git push -u origin gh-pages
 ```
 
+
+## TODO
+
+可根据相应的需求开发对应的插件
+
+1. gitbook plugin
+2. markdown it
