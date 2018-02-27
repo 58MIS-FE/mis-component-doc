@@ -83,7 +83,9 @@ git push -u origin gh-pages
 
 ## TODO
 
-可根据相应的需求开发对应的插件
+* 可根据相应的需求开发对应的插件
 
 1. gitbook plugin [Docs](https://github.com/GitbookIO/gitbook/tree/master/docs/plugins)
 2. markdown it [Repo](https://github.com/markdown-it)
+
+* [gitbook tool](https://toolchain.gitbook.com/syntax/markdown.html)
