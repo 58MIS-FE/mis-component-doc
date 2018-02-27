@@ -1,0 +1,20 @@
+{
+  "name": "mis-component-doc",
+  "version": "1.0.0",
+  "description": "[https://58mis-fe.github.io/mis-component-doc/](https://58mis-fe.github.io/mis-component-doc/)",
+  "main": "index.js",
+  "scripts": {
+    "deploy:gh-pages": "gitbook build && git checkout gh-pages && cp -r _book/* . && git add . && git commit -m 'Publish' && git push && git checkout master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/58MIS-FE/mis-component-doc.git"
+  },
+  "author": "58-mis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/58MIS-FE/mis-component-doc/issues"
+  },
+  "homepage": "https://github.com/58MIS-FE/mis-component-doc#readme"
+}
