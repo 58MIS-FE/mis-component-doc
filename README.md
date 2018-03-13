@@ -20,7 +20,8 @@ Mackdown当中支持直接书写html标签
 1. 全局安装gitbook
 
 ```
-npm install gitbook -g
+npm install gitbook -g 
+npm install gitbook-cli -g
 ```
 
 2. 生成文档目录
