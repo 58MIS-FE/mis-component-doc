@@ -8,7 +8,7 @@
     * [通用样式](chapter2/section1.1.md)
     * [通用布局](chapter2/section1.2.md)
 * [vue 插件](vue/README.md)
-    * [通用样式](chapter3/cropper/cropper.md)
-    * [通用布局](chapter3/progressBar/progressBar.md)
+    * [通用样式](vue/cropper/cropper.md)
+    * [通用布局](vue/progressBar/progressBar.md)
 
 
