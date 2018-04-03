@@ -8,6 +8,7 @@ http://gitlab.58corp.com/mis-bigdata/common/tree/master/src/common
 
 http://gitlab.58corp.com/misfe/mobile-record/blob/master/src/index/views/replay/subpage/on.vue
 
+## 例子
 ```
 import misProgressBar from '@/common/progressBar';
 
